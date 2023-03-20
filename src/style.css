@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("https://resize.elle.fr/article/var/plain_site/storage/images/loisirs/series/the-witcher-henry-cavill-quitte-la-serie-decouvrez-qui-le-remplace-4074401/97760029-1-fre-FR/The-Witcher-Henry-Cavill-quitte-la-serie-decouvrez-qui-le-remplace.jpg");
+  background-size: 1900px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  height: 140px;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 55px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #b70d0d;
+  color: white;
+}
+
+
+figure {
+   border: black;
+       display: flex;
+       flex-flow: column;
+       padding: 105px;
+       max-width: 295px;
+       margin: auto;
+       background-color: #812121;
+       margin-top: 238;
+       border: black;
+       border: 1rem solid;
+}
+
+img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+
+
+.footer{
+
+float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 55px 16px;
+  text-decoration: none;
+  font-size: 25px;
+
+
+}
+
+.footer a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.footer a.active {
+  background-color: #b70d0d;
+  color: white;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 5%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
